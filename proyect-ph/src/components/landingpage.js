@@ -1,7 +1,6 @@
 import React , { Component } from 'react';
 import {Cell , Grid } from 'react-mdl';
 
-
 class Landing extends Component {
     render () {
         return (
@@ -9,10 +8,18 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                        <img 
-                         src="https://i0.pngocean.com/files/449/984/899/camera-drawing-sketch-camera-drawing.jpg"
+                         src="./imagen/photo.png"
                          alt="avatar" 
                          className="avatar-img"
                          />
+
+                         <div className="banner-text">
+                             <h1>Capturamos momentos inolvidables</h1>
+
+                             <hr/>
+                             <p>CASAMIENTOS | CUMPLEAÑOS | BOOK PERSONAL | BAUTISMOS</p>
+
+                         </div>
                         
                     </Cell>
 
