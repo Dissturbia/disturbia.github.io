@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
+
     <Layout fixedHeader>
         <Header className = "header-color" title = "Looking for the sunshine" scroll>
             <Navigation>
@@ -27,7 +27,7 @@ function App() {
           <Main/>
         <Content/>
     </Layout>
-</div>
+
   );
 }
 
